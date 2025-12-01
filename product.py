@@ -1,5 +1,5 @@
 # product.py
-
+import pytest
 def product_details(product_id, name, quantity, price):
     return (
         f"Product ID   : {product_id}\n"
